@@ -1,0 +1,134 @@
+# ============================================
+# Git Ignore para Proyecto React + Flask
+# ============================================
+
+# ------------------------------
+# Archivos de Python / Flask
+# ------------------------------
+
+# Byte-compiled / optimized / DLL files
+__pycache__/
+*.py[cod]
+*$py.class
+
+# C extensions
+*.so
+
+# Entornos virtuales
+venv/
+ENV/
+env/
+.venv/
+.ENV/
+.env
+
+# Archivos de base de datos generados por Flask
+instance/
+*.db
+*.sqlite3
+
+# Archivos generados por PyInstaller
+*.manifest
+*.spec
+
+# Logs de instalación de pip
+pip-log.txt
+pip-delete-this-directory.txt
+
+# Informes de pruebas unitarias / cobertura
+htmlcov/
+.tox/
+.nox/
+.coverage
+.coverage.*
+.cache
+nosetests.xml
+coverage.xml
+*.cover
+.hypothesis/
+.pytest_cache/
+
+# ------------------------------
+# Archivos de Node.js / React
+# ------------------------------
+
+# Directorios de dependencias de Node
+node_modules/
+frontend/node_modules/
+
+# Directorio de construcción de React
+frontend/build/
+
+# Archivos de entorno de Node
+.env
+.env.local
+.env.development.local
+.env.test.local
+.env.production.local
+
+# ------------------------------
+# Archivos específicos de IDEs
+# ------------------------------
+
+# Visual Studio Code
+.vscode/
+!.vscode/settings.json
+!.vscode/tasks.json
+!.vscode/launch.json
+!.vscode/extensions.json
+
+# PyCharm
+.idea/
+
+# Sublime Text
+*.sublime-project
+*.sublime-workspace
+
+# Otros editores
+*.code-workspace
+
+# ------------------------------
+# Archivos del Sistema Operativo
+# ------------------------------
+
+# macOS
+.DS_Store
+
+# Windows
+Thumbs.db
+ehthumbs.db
+Desktop.ini
+
+# ------------------------------
+# Archivos de Logs
+# ------------------------------
+
+logs/
+*.log
+npm-debug.log*
+yarn-debug.log*
+yarn-error.log*
+
+# ------------------------------
+# Archivos Temporales
+# ------------------------------
+
+# Archivos temporales de compilación
+*.tmp
+*.temp
+
+# Archivos de respaldo
+*~
+
+# Archivos de swap de Vim
+*.swp
+
+# ------------------------------
+# Otros
+# ------------------------------
+
+# Archivos de entorno general
+.env
+
+# Carpetas y archivos de pruebas
+tests/__pycache__/
