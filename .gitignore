@@ -60,11 +60,11 @@ frontend/node_modules/
 frontend/build/
 
 # Archivos de entorno de Node
-.env
-.env.local
-.env.development.local
-.env.test.local
-.env.production.local
+frontend/.env
+frontend/.env.local
+frontend/.env.development.local
+frontend/.env.test.local
+frontend/.env.production.local
 
 # ------------------------------
 # Archivos específicos de IDEs
@@ -126,9 +126,6 @@ yarn-error.log*
 # ------------------------------
 # Otros
 # ------------------------------
-
-# Archivos de entorno general
-.env
 
 # Carpetas y archivos de pruebas
 tests/__pycache__/
