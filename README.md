@@ -108,6 +108,9 @@ Para potenciar y perfeccionar nuestro modelo Llama en el idioma K'iche, hemos in
 
 https://www.iglesiacatolica.org.gt/bibliakiche/BKiche_DiccioKE.pdf
 
+  <img src="https://i.ibb.co/Y23jkdt/Screenshot-2024-11-25-105518.png" alt="Paka hablando" style="max-width: 100%; height: auto;">
+
+
 ## ¡Paka está allí para ayudarte!
 
 !<?xml version="1.0" standalone="no"?>![WhatsApp Image 2024-11-23 at 3 53 51 PM-fotor-bg-remover-20241123165856](https://github.com/user-attachments/assets/deebb9cf-66d2-4f32-8916-dc705bc29576)
