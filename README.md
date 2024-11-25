@@ -95,8 +95,11 @@ Antes de comenzar, asegúrate de tener instalados los siguientes programas y her
 
 ## Recursos Adicionales 📚
 
-- **Diseño en Figma:** [Ver Diseño](https://www.figma.com/design/kTeJVJRNx94KaoHnckpOIA/Untitled?node-id=0-1&t=demu8N3OwT2aN3GP-1)
+- **Diseño en Figma:**
 
+<a href="https://www.figma.com/design/kTeJVJRNx94KaoHnckpOIA/Untitled?node-id=0-1&t=demu8N3OwT2aN3GP-1" target="_blank">
+  <img src="https://i.ibb.co/4S9Bm2y/Screenshot-2024-11-24-232436.png" alt="Diseño de CulturaViva" style="max-width: 100%; height: auto;">
+</a>
 
 ## ¡Paka está allí para ayudarte!
 
