@@ -93,6 +93,11 @@ Antes de comenzar, asegúrate de tener instalados los siguientes programas y her
    - Ve a la siguiente dirección para interactuar con **CulturaViva**:
      [http://localhost:3000](http://localhost:3000)
 
+## Recursos Adicionales 📚
+
+- **Diseño en Figma:** [Ver Diseño](https://www.figma.com/design/kTeJVJRNx94KaoHnckpOIA/Untitled?node-id=0-1&t=demu8N3OwT2aN3GP-1)
+
+
 ## ¡Paka está allí para ayudarte!
 
 !<?xml version="1.0" standalone="no"?>![WhatsApp Image 2024-11-23 at 3 53 51 PM-fotor-bg-remover-20241123165856](https://github.com/user-attachments/assets/deebb9cf-66d2-4f32-8916-dc705bc29576)
