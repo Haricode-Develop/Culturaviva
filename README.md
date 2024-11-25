@@ -11,7 +11,7 @@
 - **Resúmenes inteligentes**: El foro incluye una funcionalidad que muestra resúmenes de las discusiones o tópicos específicos que el usuario consulta.
 
 ### 2. Tutor Inteligente: **Paka**
-- Un chatbot interactivo potenciado por el modelo **Llama 3 de META**.
+- Un chatbot interactivo potenciado por el modelo **Llama-3.2-90B-Vision-Instruct de META**.
 - **Resolución de dudas**: Paka responde preguntas sobre el idioma K'iche', ayudando a los usuarios a entender estructuras gramaticales, vocabulario, y más.
 - Conversaciones dinámicas para mejorar la experiencia de aprendizaje.
 
@@ -92,3 +92,7 @@ Antes de comenzar, asegúrate de tener instalados los siguientes programas y her
 6. **Abre tu navegador:**
    - Ve a la siguiente dirección para interactuar con **CulturaViva**:
      [http://localhost:3000](http://localhost:3000)
+
+## ¡Paka está allí para ayudarte!
+
+!<?xml version="1.0" standalone="no"?>![WhatsApp Image 2024-11-23 at 3 53 51 PM-fotor-bg-remover-20241123165856](https://github.com/user-attachments/assets/deebb9cf-66d2-4f32-8916-dc705bc29576)
