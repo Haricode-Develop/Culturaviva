@@ -101,6 +101,13 @@ Antes de comenzar, asegúrate de tener instalados los siguientes programas y her
   <img src="https://i.ibb.co/4S9Bm2y/Screenshot-2024-11-24-232436.png" alt="Diseño de CulturaViva" style="max-width: 100%; height: auto;">
 </a>
 
+- **Entrenamiento y delimitaciones modelo Llama:**
+
+Para potenciar y perfeccionar nuestro modelo Llama en el idioma K'iche, hemos integrado valiosos recursos disponibles en internet. Esta incorporación ha permitido entrenar el modelo de manera robusta, garantizando una experiencia educativa superior y una enseñanza más efectiva. Destacamos especialmente el siguiente recurso, fundamental en este proceso de mejora:
+
+
+https://www.iglesiacatolica.org.gt/bibliakiche/BKiche_DiccioKE.pdf
+
 ## ¡Paka está allí para ayudarte!
 
 !<?xml version="1.0" standalone="no"?>![WhatsApp Image 2024-11-23 at 3 53 51 PM-fotor-bg-remover-20241123165856](https://github.com/user-attachments/assets/deebb9cf-66d2-4f32-8916-dc705bc29576)
