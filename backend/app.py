@@ -5,7 +5,11 @@ import os
 import openai
 
 app = Flask(__name__)
-CORS(app)
+CORS(app, resources={
+    r"/foro": {"origins": "https://cultura-viva-zeta.vercel.app"},
+    r"/tutor": {"origins": "https://cultura-viva-zeta.vercel.app"},
+    r"/": {"origins": "https://cultura-viva-zeta.vercel.app"}
+})
 
 client = openai.OpenAI(
     api_key=os.environ.get("SAMBANOVA_API_KEY"),
