@@ -20,13 +20,16 @@
 ## Tecnologías utilizadas 🛠️
 
 ### Frontend
-- **React**: Biblioteca para construir interfaces de usuario dinámicas.
-- **Material UI**: Framework de componentes para una interfaz moderna y accesible.
-- **Tailwind CSS**: Framework CSS para un diseño personalizado y responsivo.
+- **React**: Biblioteca para construir interfaces de usuario dinámicas. <img align="left" alt="Angular" width="30px" style="padding-right:10px;" src="https://github.com/devicons/devicon/blob/v2.16.0/icons/react/react-original.svg" />
+
+- **Material UI**: Framework de componentes para una interfaz moderna y accesible. <img align="left" alt="Angular" width="30px" style="padding-right:10px;" src="https://github.com/devicons/devicon/blob/v2.16.0/icons/materialui/materialui-plain.svg" />
+
+- **Tailwind CSS**: Framework CSS para un diseño personalizado y responsivo. <img align="left" alt="Angular" width="30px" style="padding-right:10px;" src="https://github.com/devicons/devicon/blob/v2.16.0/icons/tailwindcss/tailwindcss-original.svg" />
 
 ### Backend
-- **Python**: Lenguaje principal para manejar la lógica del servidor.
-- **Flask**: Framework ligero para crear APIs RESTful.
+- **Python**: Lenguaje principal para manejar la lógica del servidor. <img align="left" alt="Angular" width="30px" style="padding-right:10px;" src="https://github.com/devicons/devicon/blob/v2.16.0/icons/python/python-original.svg" />
+
+- **Flask**: Framework ligero para crear APIs RESTful. <img align="left" alt="Angular" width="30px" style="padding-right:10px;" src="https://github.com/devicons/devicon/blob/v2.16.0/icons/flask/flask-original.svg" />
 - **Librerías principales**:
   - `Flask`: Para manejar las rutas y solicitudes HTTP.
   - `os`: Para manejar operaciones del sistema, como rutas de archivos.
