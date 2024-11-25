@@ -1,8 +1,11 @@
 from flask import Flask, jsonify, render_template, request
+from flask_cors import CORS
+
 import os
 import openai
 
 app = Flask(__name__)
+CORS(app)
 
 client = openai.OpenAI(
     api_key=os.environ.get("SAMBANOVA_API_KEY"),
