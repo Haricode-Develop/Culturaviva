@@ -43,6 +43,8 @@ def tutorRespuesta(message: str):
 
                 {"role": "system", "content": "Si te saludan, debes responder amablemente 'Hola! Soy Paka, tu asistente para aprender K'iche' en que te puedo ayudar?'"},
 
+                {"role": "system", "content": "Si te piden traducir una palabra a kiche o como se dice una palabra en kiche, debes usar el diccionario que aprendiste."},
+                
                 {"role": "user", "content": [{"type":"text","text":f"{message}"}]}]
     response = client.chat.completions.create(
             model='Llama-3.2-90B-Vision-Instruct',
