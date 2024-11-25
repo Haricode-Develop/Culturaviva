@@ -66,8 +66,8 @@ const DiscussionDetail = ({ discussion, onClose }) => {
         setOpenDialog(true);
         // Simulación de envío de datos al endpoint y recepción de respuesta
         try {
-            const res = await axios.post('https://tu-endpoint.com/llama', {
-                content: discussion.content,
+            const res = await axios.post('http://127.0.0.1:5000/foro', {
+                text: discussion.content,
             });
             setResponse(res.data.response);
         } catch (error) {

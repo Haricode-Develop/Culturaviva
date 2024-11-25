@@ -86,7 +86,7 @@ const DiscussionsList = ({ selectedDiscussion, setSelectedDiscussion }) => {
                 'Conversación sobre remedios ancestrales, plantas medicinales y cómo estas prácticas pueden complementarse con la medicina moderna.',
             icon: <ForumIcon />,
         },
-        // Añade más discusiones aquí con diferentes íconos y contenido
+        // Más discusiones con diferentes íconos y contenido
         {
             id: 5,
             title: 'Gastronomía Ancestral',

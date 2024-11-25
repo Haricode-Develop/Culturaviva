@@ -2,36 +2,37 @@
 import React, { useState } from 'react';
 import { Fab, Dialog, DialogTitle, DialogContent, DialogActions, Button, Typography } from '@mui/material';
 import HelpIcon from '@mui/icons-material/Help';
-import axios from 'axios';
 import { makeStyles } from '@mui/styles';
+import axios from 'axios';
 
 const useStyles = makeStyles((theme) => ({
     fab: {
         position: 'fixed',
         bottom: theme.spacing(4),
         right: theme.spacing(4),
-        backgroundColor: '#FBBF24',
+        backgroundColor: theme.palette.primary.main,
+        color: 'white',
         '&:hover': {
             backgroundColor: '#f5a623',
+            transform: 'scale(1.1)',
+
         },
-    },
-    pakaIcon: {
-        width: 56,
-        height: 56,
+        transition: 'background-color 0.3s ease-in-out, transform 0.3s ease-in-out',
+
     },
 }));
 
-const PakaHelp = () => {
+const PakaHelp = ({ discussionContent }) => {
     const classes = useStyles();
     const [open, setOpen] = useState(false);
     const [response, setResponse] = useState('');
 
     const handleClickOpen = async () => {
         setOpen(true);
-        // Simulación de envío de datos al endpoint y recepción de respuesta
+        // Enviar el contenido de la discusión al endpoint
         try {
             const res = await axios.post('http://127.0.0.1:5000/foro', {
-                content: 'Contenido del foro o discusión actual',
+                text: discussionContent,
             });
             setResponse(res.data.response);
         } catch (error) {
@@ -47,10 +48,15 @@ const PakaHelp = () => {
     return (
         <>
             <Fab className={classes.fab} onClick={handleClickOpen}>
-                <img src="/images/paka-avatar.png" alt="Paka" className={classes.pakaIcon} />
+                <HelpIcon />
             </Fab>
-            <Dialog open={open} onClose={handleClose}>
-                <DialogTitle>Ayuda de Paka</DialogTitle>
+            <Dialog
+                open={open}
+                onClose={handleClose}
+                transitionDuration={700}
+                aria-labelledby="paka-help-dialog-title"
+            >
+                <DialogTitle id="paka-help-dialog-title">Ayuda de Paka</DialogTitle>
                 <DialogContent>
                     <Typography variant="body1">
                         {response || 'Obteniendo ayuda...'}

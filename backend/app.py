@@ -86,6 +86,8 @@ def tutor():
     try:
         data = request.json
         user_input = data.get("text")
+        print("LO QUE ESCRIBE EL USUARIO: ")
+        print(user_input)
 #Procesar input con el modelo
         response = tutorRespuesta(user_input)
 
@@ -98,6 +100,8 @@ def foro():
     try:
         data = request.json
         user_input = data.get("text")
+        print("LO QUE ESCRIBE EL USUARIO: ")
+        print(user_input)
 #Procesar input con el modelo
         response = foroRespuesta(user_input)
 

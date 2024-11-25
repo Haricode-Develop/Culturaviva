@@ -2,6 +2,7 @@
 import React, { useState } from 'react';
 import Sidebar from './Sidebar';
 import DiscussionsList from './DiscussionsList';
+import PakaHelp from './PakaHelp';
 import { Grid } from '@mui/material';
 
 const DiscussionForum = () => {
@@ -14,6 +15,7 @@ const DiscussionForum = () => {
                 selectedDiscussion={selectedDiscussion}
                 setSelectedDiscussion={setSelectedDiscussion}
             />
+            {selectedDiscussion && <PakaHelp discussionContent={selectedDiscussion.content} />}
         </Grid>
     );
 };
