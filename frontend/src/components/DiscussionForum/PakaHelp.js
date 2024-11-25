@@ -30,7 +30,7 @@ const PakaHelp = () => {
         setOpen(true);
         // Simulación de envío de datos al endpoint y recepción de respuesta
         try {
-            const res = await axios.post('https://tu-endpoint.com/llama', {
+            const res = await axios.post('http://127.0.0.1:5000/foro', {
                 content: 'Contenido del foro o discusión actual',
             });
             setResponse(res.data.response);
