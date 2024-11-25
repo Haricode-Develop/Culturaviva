@@ -66,7 +66,7 @@ const DiscussionDetail = ({ discussion, onClose }) => {
         setOpenDialog(true);
         // Simulación de envío de datos al endpoint y recepción de respuesta
         try {
-            const res = await axios.post('http://127.0.0.1:5000/foro', {
+            const res = await axios.post('https://culturaviva.onrender.com/foro', {
                 text: discussion.content,
             });
             setResponse(res.data.response);

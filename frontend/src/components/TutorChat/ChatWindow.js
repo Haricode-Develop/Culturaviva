@@ -108,7 +108,7 @@ const ChatWindow = ({ selectedGroup }) => {
             setInput('');
             // Enviar mensaje al endpoint y obtener respuesta
             try {
-                const res = await axios.post('http://127.0.0.1:5000/tutor', {
+                const res = await axios.post('https://culturaviva.onrender.com/tutor', {
                     text: input,
                 });
                 const response = {

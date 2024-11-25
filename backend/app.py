@@ -79,7 +79,7 @@ def foroRespuesta(message : str):
 
 @app.route("/")
 def hello_world():
-    return render_template('index.html')
+    return "Hola Mundo"
 
 @app.route('/tutor', methods=['POST'])
 def tutor():

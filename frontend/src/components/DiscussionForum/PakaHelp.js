@@ -31,7 +31,7 @@ const PakaHelp = ({ discussionContent }) => {
         setOpen(true);
         // Enviar el contenido de la discusión al endpoint
         try {
-            const res = await axios.post('http://127.0.0.1:5000/foro', {
+            const res = await axios.post('https://culturaviva.onrender.com/foro', {
                 text: discussionContent,
             });
             setResponse(res.data.response);
