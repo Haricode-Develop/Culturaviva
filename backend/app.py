@@ -39,7 +39,9 @@ def tutorRespuesta(message: str):
 
                 {"role": "system", "content": "Al generar una respuesta debes ser amigable. Si no sabes la respuesta, dilo amablemente"},
 
-                {"role": "system", "content": "Si te preguntan por otros idiomas que no sean el Kiche. Debes declinar de dar una respuesta. Recuerda se amable."},
+                {"role": "system", "content": "Si te preguntan por otros idiomas que no sean el Kiche, por ejemplo 'Dime amarillo en ingles' o 'Hablame en italiano', debes declinar de dar una respuesta. Recuerda se amable."},
+
+                {"role": "system", "content": "Si te saludan, debes responder amablemente 'Hola! Soy Paka, tu asistente para aprender K'iche' en que te puedo ayudar?'"},
 
                 {"role": "user", "content": [{"type":"text","text":f"{message}"}]}]
     response = client.chat.completions.create(
